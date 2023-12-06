@@ -1,116 +1,188 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Currículo</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    />
-  </head>
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+</head>
 
-  <body class="">
+<body>
     <header class="container-fluid bg-primary">
-      <h1>Matheus Brizola</h1>
-      <h3>QA Tester</h3>
+        <h1>Matheus Brizola</h1>
+        <h3>QA Tester</h3>
     </header>
     <main class="container-xl">
-      <section class="dados-pessoais mt-5 p-2 shadow border border-primary">
-        <div class="col-12">
-          <h4>Dados pessoais:</h4>
-          <p>Idade: 28 anos</p>
-          <p>
-            Endereço: Rua Monteiro Lobato, 460/401 – Partenon – Porto Alegre
-            Fones: 51 982331012
-          </p>
-          <p>e-mail: matheusbj95@gmail.com</p>
-          <a href="https://github.com/MatheusBrizza/">GitHub</a>
-          <a href="https://www.linkedin.com/in/matheus-brizola-498456198/"
-            >LinkedIn</a>
-        </div>
-      </section>
-      <section class="objetivo mt-4 p-2 shadow border border-primary">
-        <div class="col-12">
-          <h4>Objetivo:</h4>
-          <p>
-            Em transição de carreira de 8 anos da área contábil para TI, minhas
-            soft skills predominantes são aprendizado rápido, disciplina, foco
-            em detalhes, capacidade analítica e trabalho em equipe. Possuo
-            sólidas experiências nas linguagens Java, Kotlin, JavaScript e
-            React, boas noções de QA tanto em automação quanto técnico. Também
-            tenho conhecimentos em metodologias ágeis como Scrum e kanban. tenho
-            diploma de inglês no CCAA no nível MEC(Mastering English Course),
-            sendo considerado fluente na língua.
-          </p>
-        </div>
-      </section>
-      <section class="formacao-academica mt-4 p-2 shadow border border-primary">
-        <div class="col-12">
-          <h4>Formação acadêmica:</h4>
-          <p>Análise e Desenvolvimento de Sistemas – Estácio de Sá - 2023</p>
-          <p>
-            Curso Técnico de Tecnologia da Informação – Fundatec – 2021/2023
-          </p>
-          <p>Ciências Contábeis: Uniritter Zona Sul – 2015/2018</p>
-        </div>
-      </section>
-      <section class="outros-cursos mt-4 p-2 shadow border border-primary">
-        <div class="col-12">
-          <h4>Outros cursos:</h4>
-          <p>
-            Curso Completo MongoDB 2023 [NoSQL do Básico ao Avançado!] – Renan
-            Pallin
-          </p>
-          <p>Microsoft Azure Cloud para Iniciantes 2023 – André Iacono</p>
-          <p>
-            Testes Automáticos + Curso COMPLETO de Teste de Software – Gustavo
-            Farias
-          </p>
-          <p>Microsoft Azure Infraestrutura – Higor Barbosa</p>
-          <p>Comunidade Tester Global – Vinicius Pessoni</p>
-          <p>Testes automatizados com Cypress – Avançado – Walmir Filho</p>
-          <p>Testes automatizados com Cypress – Intermediário – Walmir Filho</p>
-          <p>Testes automatizados com Cypress – Básico – Walmir Filho</p>
-          <p>
-            Curso de Inglês – MEC – nível: Master English Course – CC&AA –
-            2005/2012;
-          </p>
-        </div>
-      </section>
-      <section class="experiencias-profissionais mt-4 mb-4 p-2 shadow border border-primary">
-        <div class="col-12">
-          <h4>Experiências profissionais:</h4>
-          <p>
-            Autônomo – Assistente técnico de perícias jurídicas – 2019/2023;
-          </p>
-          <p>
-            Fabiano Almeida – Serviços Sociedade Simples Ltda – fevereiro/2018 –
-            novembro/2019 – estagiário;
-          </p>
-          <p>
-            Procuradoria Geral do Estado – março/2016 – fevereiro/2018 - estágio
-            no setor de perícia contábil na Procuradoria de Liquidação e
-            Execução – PGE/RS;
-          </p>
-          <p>
-            Acadrolli – fevereiro/2014 – agosto/2015 – assistente
-            administrativo;
-          </p>
-          <p>
-            Departamento de Criminalística do Estado do Rio Grande do Sul –
-            março/2012-dezembro/2013 – estagiário no setor de Engenharia;
-          </p>
-        </div>
-      </section>
+        <section class="dados-pessoais mt-5 p-2 shadow border border-primary">
+            <div class="col-12">
+                <h4>Dados pessoais:</h4>
+                <p>Idade: 28 anos</p>
+                <p>Etnia: Branco</p>
+                <p>Pronomes: ele/dele</p>
+            </div>
+        </section>
+        <section class="contatos mt-4 p-2 shadow border border-primary">
+            <div class="col-12">
+                <h4>Contatos:</h4>
+                <p>e-mail: matheusbj95@gmail.com</p>
+                <div class="email-form mb-2">
+                    <h5>Me envie um email!</h5>
+                    <form action="submit">
+                        <input type="email" placeholder="Seu email">
+                        <div class="w-100 d-none d-md-block mt-1"></div>
+                        <input type="text" placeholder="Assunto">
+                        <div class="w-100 d-none d-md-block mt-1"></div>
+                        <textarea name="" id="" cols="30" rows="5" placeholder="Sua mensagem"></textarea>
+                        <div class="w-100 d-none d-md-block mt-1"></div>
+                        <button class="btn bg-primary" type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="mt-2">
+                    <h5>Redes sociais:</h5>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/MatheusBrizza/">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/matheus-brizola-498456198/">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="objetivo mt-4 p-2 shadow border border-primary">
+            <div class="col-12">
+                <h4>Objetivo:</h4>
+                <p>
+                    Em transição de carreira de 8 anos da área contábil para TI, minhas
+                    soft skills predominantes são aprendizado rápido, disciplina, foco
+                    em detalhes, capacidade analítica e trabalho em equipe. Possuo
+                    sólidas experiências nas linguagens Java, Kotlin, JavaScript e
+                    React, boas noções de QA tanto em automação quanto técnico. Também
+                    tenho conhecimentos em metodologias ágeis como Scrum e kanban. tenho
+                    diploma de inglês no CCAA no nível MEC(Mastering English Course),
+                    sendo considerado fluente na língua.
+                </p>
+            </div>
+        </section>
+        <section class="formacao-academica mt-4 p-2 shadow border border-primary">
+            <div class="col-12">
+                <h4>Formação acadêmica:</h4>
+                <p>Análise e Desenvolvimento de Sistemas – Estácio de Sá - 2023</p>
+                <p>
+                    Curso Técnico de Tecnologia da Informação – Fundatec – 2021/2023
+                </p>
+                <p>Ciências Contábeis: Uniritter Zona Sul – 2015/2018</p>
+            </div>
+        </section>
+        <section class="ferramentas mt-4 p-2 shadow border border-primary">
+            <div class="col-12">
+                <h4>Ferramentas conhecidas:</h4>
+                <div class="row">
+                    <img class="col-1" alt="HTML" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+                    <img class="col-1" alt="CSS" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+                    <img class="col-1" alt="javascript" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+                    <img class="col-1" alt="Bootstrap" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg">
+                    <img class="col-1" alt="React" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+                    <img class="col-1" alt="java" height="50" width="50" src="https://www.svgrepo.com/show/184143/java.svg">
+                    <img class="col-1" alt="cypress" height="50" width="50" src="https://static-00.iconduck.com/assets.00/cypress-icon-512x512-zi8589rq.png">
+                    <img class="col-1" alt="seleinum" height="50" width="50" src="https://static-00.iconduck.com/assets.00/selenium-icon-512x496-obrnvg2v.png">
+                    <img class="col-1" alt="springboot" height="50" width="50" src="https://static-00.iconduck.com/assets.00/spring-icon-512x512-bdmpbhxj.png">
+                    <img class="col-1" alt="kotlin" height="50" width="50" src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png">
+                    <img class="col-1" alt="docker" height="50" width="50" src="https://static-00.iconduck.com/assets.00/docker-icon-icon-2048x1479-cres2he9.png">
+                    <img class="col-1" alt="mysql" height="50" width="50" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/mysql_logo_icon_169941.png">
+                    <img class="col-1" alt="mongodb" height="50" width="50" src="https://www.svgrepo.com/show/331488/mongodb.svg">
+                </div>
+            </div>
+        </section>
+        <section class="outros-cursos mt-4 p-2 shadow border border-primary">
+            <div class="col-12">
+                <h4>Outros cursos:</h4>
+                <ul>
+                    <li>
+                        <a href="https://www.udemy.com/course/mongodb-curso-completo/?kw=curso+completo+mongo&src=sac">Curso
+                            Completo MongoDB 2023 [NoSQL do Básico ao Avançado!] – Renan Pallin
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.udemy.com/course/microsoft-azure-cloud-para-iniciantes/?kw=microsoft+azure+para+iniciantes&src=sac">Microsoft
+                            Azure Cloud para Iniciantes 2023 – André Iacono
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.udemy.com/course/teste-software-completo-testes-automaticos/">Testes
+                            Automáticos +
+                            Curso COMPLETO de Teste de Software – Gustavo Farias
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.udemy.com/course/azureinfraestrutura/?kw=microsoft+azure+inf&src=sac">Microsoft
+                            Azure Infraestrutura – Higor Barbosa
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ctg.viniciuspessoni.com/">Comunidade Tester Global – Vinicius Pessoni
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.udemy.com/course/testes-automatizados-com-cypress-avancado/?kw=testes+automatizados&src=sac">Testes
+                            automatizados com Cypress – Avançado – Walmir Filho
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.udemy.com/course/testes-automatizados-com-cypress-intermediario/?kw=testes+automatiza&src=sac">Testes
+                            automatizados com Cypress – Intermediário – Walmir Filho
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.udemy.com/course/testes-automatizados-com-cypress-basico/?kw=testes+automatizados&src=sac">Testes
+                            automatizados com Cypress – Básico – Walmir Filho
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.ccaa.com.br/">Curso de Inglês – MEC – nível: Master English Course – CC&AA
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="experiencias-profissionais mt-4 mb-4 p-2 shadow border border-primary">
+            <div class="col-12">
+                <h4>Experiências profissionais:</h4>
+                <p>
+                    Autônomo – Assistente técnico de perícias jurídicas – 2019/2023;
+                </p>
+                <p>
+                    Fabiano Almeida – Serviços Sociedade Simples Ltda – fevereiro/2018 –
+                    novembro/2019 – estagiário;
+                </p>
+                <p>
+                    Procuradoria Geral do Estado – março/2016 – fevereiro/2018 - estágio
+                    no setor de perícia contábil na Procuradoria de Liquidação e
+                    Execução – PGE/RS;
+                </p>
+                <p>
+                    Acadrolli – fevereiro/2014 – agosto/2015 – assistente
+                    administrativo;
+                </p>
+                <p>
+                    Departamento de Criminalística do Estado do Rio Grande do Sul –
+                    março/2012-dezembro/2013 – estagiário no setor de Engenharia;
+                </p>
+            </div>
+        </section>
     </main>
-    <footer class="container-fluid bg-primary">
-      
+    <footer class="container-fluid text-center bg-primary p-3">
+        <p>Direitos autorais - 2023</p>
     </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
